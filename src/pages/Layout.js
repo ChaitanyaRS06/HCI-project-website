@@ -16,7 +16,7 @@ const Layout = () => {
             <Link to="/reminderlightmode">Reminder Light Mode</Link>
           </li>
           <li>
-            <Link to="/reminderlightmode">Reminder Dark Mode</Link>
+            <Link to="/reminderdarkmode">Reminder Dark Mode</Link>
           </li>
 
 
