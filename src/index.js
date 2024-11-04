@@ -6,6 +6,7 @@ import Layout from "./pages/Layout";
 import LightMode from "./pages/LightMode";
 import ReminderLightMode from "./pages/ReminderDarkMode";
 import ReminderDarkMode from "./pages/ReminderLightMode";
+import ButtonLink from './components/ButtonLink'
 
 function App() {
   return (

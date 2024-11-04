@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import ButtonLink from '../components/ButtonLink';
 
 const Layout = () => {
   return (
@@ -7,16 +8,16 @@ const Layout = () => {
         <ul>
           <h1>Printing something in layout</h1>
           <li>
-            <Link to="/darkmode">Dark Mode</Link>
+            <ButtonLink to="/darkmode">Dark Mode</ButtonLink>
           </li>
           <li>
-            <Link to="/lightmode">Light Mode</Link>
+            <ButtonLink to="/lightmode">Light Mode</ButtonLink>
           </li>
           <li>
-            <Link to="/reminderlightmode">Reminder Light Mode</Link>
+            <ButtonLink to="/reminderdarkmode">Reminder Dark Mode</ButtonLink>
           </li>
           <li>
-            <Link to="/reminderdarkmode">Reminder Dark Mode</Link>
+            <ButtonLink to="/reminderlightmode">Reminder Light Mode</ButtonLink>
           </li>
 
 
