@@ -12,6 +12,14 @@ const Layout = () => {
           <li>
             <Link to="/lightmode">Light Mode</Link>
           </li>
+          <li>
+            <Link to="/reminderlightmode">Reminder Light Mode</Link>
+          </li>
+          <li>
+            <Link to="/reminderlightmode">Reminder Dark Mode</Link>
+          </li>
+
+
         </ul>
       </nav>
 
