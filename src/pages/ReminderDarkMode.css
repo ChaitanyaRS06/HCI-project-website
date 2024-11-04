@@ -1,0 +1,24 @@
+/* ReminderDarkMode.css */
+
+/* Dark mode styles for the ReminderDarkMode page */
+.reminder-dark-mode {
+    background-color: #1a1a1a; /* Dark background */
+    color: #f0f0f0;            /* Light text */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Additional styling for headers, paragraphs, etc. */
+  .reminder-dark-mode h1 {
+    font-size: 2em;
+  }
+  
+  .reminder-dark-mode p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
