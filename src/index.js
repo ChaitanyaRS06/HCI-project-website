@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DarkMode from "./pages/DarkMode";
 import Layout from "./pages/Layout";
 import LightMode from "./pages/LightMode";
-import ReminderLightMode from "./pages/ReminderDarkMode";
-import ReminderDarkMode from "./pages/ReminderLightMode";
+import ReminderLightMode from "./pages/ReminderLightMode";
+import ReminderDarkMode from "./pages/ReminderDarkMode";
 import ButtonLink from './components/ButtonLink'
 
 function App() {
