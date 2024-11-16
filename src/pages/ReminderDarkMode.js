@@ -1,9 +1,10 @@
 // ReminderDarkMode.js
 import React, {useState, useEffect, useRef} from "react"
 import {useParams, useNavigate} from "react-router-dom"
-import "./ReminderDarkMode.css" // Import the CSS file with dark styling
+import "./DarkMode.css" // Import the CSS file with dark styling
 
 const ReminderDarkMode = () => {
+    
     const navigate = useNavigate()
     const form = useRef()
 
@@ -13,7 +14,7 @@ const ReminderDarkMode = () => {
     }
 
     return (
-        <div>
+        <div className="dark-mode">
             <body>
                 <div class="site">
                     <div id="page">

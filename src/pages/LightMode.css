@@ -1,33 +1,32 @@
-/* DarkMode.css */
-
-/* Dark mode styles for the DarkMode page */
-.dark-mode {
-    background-color: #121212; /* Dark background */
-    color: #ffff;            /* Light text */
+/* light mode */
+.light-mode {
+    background-color: #ffff; /* Light background */
+    color: #121212;         /* Dark text */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: Arial, sans-serif;
-    font-size: 0.9em;
-    padding: 20px; 
-  }
-  
-  .dark-mode .site {
+    padding: 20px; /* Adds space inside the container */
+    font-size: 0.7em;
+}
+
+/* Add a border around the content */
+.light-mode .site {
     border-left: 3px solid #121212; /* Dark border on the left */
     border-right: 3px solid #121212; /* Dark border on the right */
     padding: 20px; /* Adds space between the content and borders */
     max-width: 800px; /* Optional: limit the width of the content */
     margin: 0 auto; /* Centers the content horizontally */
 }
-  /* Additional styling for headers, paragraphs, etc. */
-  .dark-mode h1 {
+
+/* Additional styling for headers, paragraphs, etc. */
+.light-mode h1 {
     font-size: 2em;
-  }
-  
-  .dark-mode p {
+}
+
+.light-mode p {
     font-size: 1.2em;
     margin-top: 10px;
-  }
-  
+}
