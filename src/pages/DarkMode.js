@@ -7,6 +7,8 @@ const DarkMode = () => {
   const navigate = useNavigate()
     const form = useRef()
 
+    const [showQuestions, setShowQuestions] = useState(false);
+
     const redirectBack = (e) => {
         e.preventDefault()
         navigate(`/`)
@@ -37,6 +39,15 @@ const DarkMode = () => {
                         <p>Arriving without correct documents, Albert Corey, a French immigrant to the United States, is inconsistently listed as participating in a mixed team in the four mile team race (with four undisputed Americans) and competing for the United States in the marathon. The South African entrants, Len Taunyane and Jan Mashiani, finished ninth and twelfth, respectively; this was a disappointment, as many observers were sure Taunyane could have done better if he had not been chased nearly a mile off course by wild dogs.</p>
                         <p>The only two sources of water for the competitors were a water tower at 6 miles (9.7 km), and a well at about the halfway (12 miles 750 yards (19.998 km)) mark. James Edward Sullivan was a chief organizer of the Olympics, and set up no other water sources along the 24 miles and 1500 yards course of the marathon even though it was conducted in 32 °C (90 °F) heat over unpaved roads that were choked with dust. His ostensible reason was to conduct research on "purposeful dehydration": this, combined with poor officiating, saw the marathon end with the worst ratio of finishers to starters (14 out of 32), and the slowest winning time, 3:28:53, which was exactly 29 minutes slower than the second-slowest winning time.</p>
 
+
+            <button 
+              onClick={() => setShowQuestions(true)}
+              className="show-questions-btn"
+              style={{ display: showQuestions ? 'none' : 'block' }}
+            >
+              Show Questions
+            </button>
+            {showQuestions && (
                         <form ref={form} onSubmit={redirectBack}>
                             <label><strong>Question 1: </strong>Where did the marathon take place?</label><br></br>
                             <input type="text" name="q1"></input><br></br><br></br>
@@ -48,6 +59,7 @@ const DarkMode = () => {
                             <input type="submit" value="Submit Answers"/>
                             <br></br><br></br>
                         </form>
+                        )}
                     </div>
                 </div>
             </body>
