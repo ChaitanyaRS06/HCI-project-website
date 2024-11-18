@@ -1,9 +1,6 @@
-/* DarkMode.css */
-
-/* Dark mode styles for the DarkMode page */
 .dark-mode {
-    background-color: #121212; /* Dark background */
-    color: #ffff;            /* Light text */
+    background-color: #141414; 
+    color: #F5F5F5;            
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,42 +9,95 @@
     font-family: Arial, sans-serif;
     font-size: 0.9em;
     padding: 20px; 
-  }
-  
-  .dark-mode .site {
-    border-left: 3px solid #121212; /* Dark border on the left */
-    border-right: 3px solid #121212; /* Dark border on the right */
-    padding: 20px; /* Adds space between the content and borders */
-    max-width: 800px; /* Optional: limit the width of the content */
-    margin: 0 auto; /* Centers the content horizontally */
 }
-  /* Additional styling for headers, paragraphs, etc. */
-  .dark-mode h1 {
-    font-size: 2em;
-  }
   
-  .dark-mode p {
+.dark-mode .site {
+    border-left: 3px solid #141414; 
+    border-right: 3px solid #141414; 
+    padding: 20px; 
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dark-mode h1 {
+    font-size: 2em;
+}
+
+.dark-mode h2 {
+    font-size: 1.75em;
+}
+
+.dark-mode h3 {
+    font-size: 1.5em;
+}
+
+.dark-mode h4 {
+    font-size: 1.25em;
+}
+  
+.dark-mode p {
     font-size: 1.2em;
     margin-top: 10px;
-  }
-
-/* Added: Styling for the show questions button */
-.show-questions-btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 0.3s;
 }
 
-.show-questions-btn:hover {
-  background-color: #45a049;
+.dark-mode .ul-block {
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.dark-mode .ul-regular {
+    font-size: 1.2em;
+}
+
+.dark-mode .show-questions-btn {
+    background-color: #4CAF50;
+    color: #F5F5F5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.dark-mode .show-questions-btn:hover {
+    background-color: #45a049;
+}
+
+.highlight-box {
+    padding: 30px;
+}
+
+.dark-mode label {
+    font-size: 1.2em;
+    color: #F5F5F5;
+}
+
+.dark-mode input[type=text] {
+    font-size: 1.2em;
+    background-color: #F5F5F5;
+}
+
+.dark-mode input[type=submit] {
+    background-color: #4CAF50;
+    color: #F5F5F5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.dark-mode input[type=submit]:hover {
+    background-color: #45a049;
 }
   

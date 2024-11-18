@@ -1,44 +1,62 @@
-/* light mode */
 .light-mode {
-    background-color: #ffff; /* Light background */
-    color: #121212;         /* Dark text */
+    background-color: #F5F5F5; 
+    color: #141414;       
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: Arial, sans-serif;
-    padding: 20px; /* Adds space inside the container */
+    padding: 20px;
     font-size: 0.7em;
 }
 
-/* Add a border around the content */
 .light-mode .site {
-    border-left: 3px solid #121212; /* Dark border on the left */
-    border-right: 3px solid #121212; /* Dark border on the right */
-    padding: 20px; /* Adds space between the content and borders */
-    max-width: 800px; /* Optional: limit the width of the content */
-    margin: 0 auto; /* Centers the content horizontally */
+    border-left: 3px solid #141414; 
+    border-right: 3px solid #141414; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
-/* Additional styling for headers, paragraphs, etc. */
 .light-mode h1 {
-    font-size: 2em;
+    font-size: 1.75em;
+}
+
+.light-mode h2 {
+    font-size: 1.5em;
+}
+
+.light-mode h3 {
+    font-size: 1.25em;
+}
+
+.light-mode h4 {
+    font-size: 1em;
 }
 
 .light-mode p {
-    font-size: 1.2em;
+    font-size: 0.95em;
     margin-top: 10px;
+}
+
+.light-mode .ul-block {
+    font-size: 0.95em;
+    list-style: none;
+}
+
+.light-mode .ul-regular {
+    font-size: 0.95em;
 }
 
 .light-mode .show-questions-btn {
     background-color: #2ecc71;
-    color: white;
+    color: #141414;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
+    font-size: 0.95em;
     margin: 25px 0;
     cursor: pointer;
     border: none;
@@ -48,5 +66,39 @@
 }
 
 .light-mode .show-questions-btn:hover {
+    background-color: #27ae60;
+}
+
+.highlight-box {
+    padding: 30px;
+}
+
+.light-mode label {
+    font-size: 0.95em;
+    color: #141414;
+}
+
+.light-mode input[type=text] {
+    font-size: 0.95em;
+    background-color: #F5F5F5;
+}
+
+.light-mode input[type=submit] {
+    background-color: #2ecc71;
+    color: #141414;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.95em;
+    margin: 25px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+.light-mode input[type=submit]:hover {
     background-color: #27ae60;
 }
