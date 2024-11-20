@@ -19,6 +19,9 @@ const Layout = () => {
           <li>
             <ButtonLink to="/reminderlightmode">Reminder Light Mode</ButtonLink>
           </li>
+          <li>
+            <ButtonLink to="/remindertest">Reminder Test</ButtonLink>
+          </li>
 
 
         </ul>
