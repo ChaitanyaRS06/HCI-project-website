@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "./Reminder.css"; // Import the CSS file with dark styling
+import "../styles/Reminder.css"; // Import the CSS file with dark styling
 
 const ReminderComponent = () => {
   const [reminder, setReminder] = useState('');

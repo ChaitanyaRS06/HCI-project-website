@@ -1,0 +1,17 @@
+
+.reminder {
+    position: fixed; 
+    color: #ff6f2c; 
+    background-color: #f2f2f227;
+    padding: 12px; 
+    margin: 15px;
+    border: 2px solid #ff6f2c; 
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+    border-radius: 7px; 
+    font-weight: bold; 
+    text-align: left; 
+    font-size: 1.2em;
+    max-width: 18%;
+    top: 30%;
+  }

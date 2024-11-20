@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from "react";
 import {useParams, useNavigate} from "react-router-dom";
-import "./LightMode.css";
+import "../styles/LightMode.css";
 
 const LightMode = () => {
     const navigate = useNavigate();
