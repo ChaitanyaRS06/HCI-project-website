@@ -15,7 +15,7 @@ const ReminderDarkMode = () => {
 
     return (
         <>
-            <ReminderComponent />
+            <ReminderComponent bgColor="black"/>
             <div className="dark-mode">
                 <body>
                     <div class="site">

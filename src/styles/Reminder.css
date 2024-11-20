@@ -2,7 +2,6 @@
 .reminder {
     position: fixed; 
     color: #ff6f2c; 
-    background-color: #f2f2f227;
     padding: 12px; 
     margin: 15px;
     border: 2px solid #ff6f2c; 
@@ -11,7 +10,7 @@
     border-radius: 7px; 
     font-weight: bold; 
     text-align: left; 
-    font-size: 1.2em;
+    font-size: 1.5em;
     max-width: 18%;
     top: 30%;
   }

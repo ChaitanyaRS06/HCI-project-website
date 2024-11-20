@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "../styles/Reminder.css"; // Import the CSS file with dark styling
 
-const ReminderComponent = () => {
+const ReminderComponent = ({ bgColor }) => {
   const [reminder, setReminder] = useState('');
   const [isVisible, setIsVisible] = useState(false);
 
@@ -23,7 +23,7 @@ const ReminderComponent = () => {
   return (
     <div>
       {isVisible && (
-        <div className="reminder">
+        <div className="reminder" style={{ backgroundColor: bgColor }}>
           <strong>{reminder}</strong>
         </div>
       )}

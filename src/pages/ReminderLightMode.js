@@ -15,7 +15,7 @@ const ReminderLightMode = () => {
   }
     return(
         <>
-            <ReminderComponent />
+            <ReminderComponent bgColor="white"/>
             <div className = "light-mode">
                 <body>
                         <div class="site">
