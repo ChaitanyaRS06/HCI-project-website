@@ -7,6 +7,7 @@ import LightMode from "./pages/LightMode";
 import ReminderLightMode from "./pages/ReminderLightMode";
 import ReminderDarkMode from "./pages/ReminderDarkMode";
 import ButtonLink from './components/ButtonLink'
+import ReminderComponent from './pages/ReminderComponent';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path = "darkmode" element={<DarkMode />}/>
                 <Route path = "reminderlightmode" element={<ReminderLightMode />}/>
                 <Route path = "reminderdarkmode" element={<ReminderDarkMode />}/>
+                <Route path = "remindertest" element={<ReminderComponent />}/>
             </Routes>
         </BrowserRouter>
     );
