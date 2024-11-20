@@ -14,7 +14,7 @@ const ReminderComponent = ({ bgColor }) => {
       setTimeout(() => {
         setIsVisible(false);
       }, 3000); // Hide after 3 seconds
-    }, 5000); // Trigger every 5 seconds
+    }, 150000); // Trigger every 2.5 minutes
 
     // Cleanup the interval when the component unmounts
     return () => clearInterval(intervalId);
