@@ -10,19 +10,19 @@ import ButtonLink from './components/ButtonLink'
 import ReminderComponent from './pages/ReminderComponent';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-        </Route>
-        <Route path = "darkmode" element={<DarkMode />}/>
-        <Route path = "lightmode" element={<LightMode />}/>
-        <Route path = "reminderdarkmode" element={<ReminderDarkMode />}/>
-        <Route path = "reminderlightmode" element={<ReminderLightMode />}/>
-        <Route path = "remindertest" element={<ReminderComponent />}/>
-      </Routes>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Layout />}>
+                </Route>
+                <Route path = "lightmode" element={<LightMode />}/>
+                <Route path = "darkmode" element={<DarkMode />}/>
+                <Route path = "reminderlightmode" element={<ReminderLightMode />}/>
+                <Route path = "reminderdarkmode" element={<ReminderDarkMode />}/>
+                <Route path = "remindertest" element={<ReminderComponent />}/>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
