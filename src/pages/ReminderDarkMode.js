@@ -106,11 +106,11 @@ const ReminderDarkMode = () => {
                             {showQuestions && (
                                 <form ref={form} onSubmit={redirectBack}>
                                     <label><strong>Question 1: </strong>Out of the four leader characteristics, which one do you think you have the most of?</label><br></br>
-                                    <input type="text" name="q1"></input><br></br><br></br>
+                                    <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
                                     <label><strong>Question 2: </strong>Do you think a charismatic leader would have compliant, cooperative, or committed followers?</label><br></br>
-                                    <input type="text" name="q2"></input><br></br><br></br>
+                                    <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
                                     <label><strong>Question 3: </strong>What is arguably the most important yet overlooked situational variable that affects the rise of a charismatic leader?</label><br></br>
-                                    <input type="text" name="q3"></input><br></br><br></br>
+                                    <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
 
                                     <input type="submit" value="Submit Answers"/>
                                     <br></br><br></br>

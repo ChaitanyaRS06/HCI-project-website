@@ -78,7 +78,7 @@
     color: #141414;
 }
 
-.light-mode input[type=text] {
+.light-mode textarea {
     font-size: 0.95em;
     background-color: #F5F5F5;
 }

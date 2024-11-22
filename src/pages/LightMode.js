@@ -114,11 +114,11 @@ const LightMode = () => {
                         {showQuestions && (
                             <form ref={form} onSubmit={redirectBack}>
                                 <label><strong>Question 1: </strong>Does leadership seem more like an art or a science to you?</label><br></br>
-                                <input type="text" name="q1"></input><br></br><br></br>
+                                <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
                                 <label><strong>Question 2: </strong>What is one distinction we typically make between a manager and a leader?</label><br></br>
-                                <input type="text" name="q2"></input><br></br><br></br>
+                                <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
                                 <label><strong>Question 3: </strong>Who is one leader you look up to?</label><br></br>
-                                <input type="text" name="q3"></input><br></br><br></br>
+                                <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
 
                                 <input type="submit" value="Submit Answers"/>
                                 <br></br><br></br>

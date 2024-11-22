@@ -77,11 +77,11 @@ const ReminderLightMode = () => {
                                 {showQuestions && (
                                     <form ref={form} onSubmit={redirectBack}>
                                         <label><strong>Question 1: </strong>Are low-performing workers happy or unhappy?</label><br></br>
-                                        <input type="text" name="q1"></input><br></br><br></br>
+                                        <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
                                         <label><strong>Question 2: </strong>What is one cause that performance problems can be attributed to?</label><br></br>
-                                        <input type="text" name="q2"></input><br></br><br></br>
+                                        <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
                                         <label><strong>Question 3: </strong>Which need in Maslow's Hierarchy do you think you are trying to satisfy at your current stage in life?</label><br></br>
-                                        <input type="text" name="q3"></input><br></br><br></br>
+                                        <textarea name="message" rows="10" cols="100"></textarea><br></br><br></br>
 
                                         <input type="submit" value="Submit Answers"/>
                                         <br></br><br></br>
