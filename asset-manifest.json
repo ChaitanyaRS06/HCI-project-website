@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HCI-project-website/static/css/main.9ea7815c.css",
+    "main.js": "/HCI-project-website/static/js/main.8c7d51ed.js",
+    "index.html": "/HCI-project-website/index.html",
+    "main.9ea7815c.css.map": "/HCI-project-website/static/css/main.9ea7815c.css.map",
+    "main.8c7d51ed.js.map": "/HCI-project-website/static/js/main.8c7d51ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ea7815c.css",
+    "static/js/main.8c7d51ed.js"
+  ]
+}
