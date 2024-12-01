@@ -11,7 +11,7 @@ import ReminderComponent from './components/ReminderComponent';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/HCI-project-website'>
             <Routes>
                 <Route path="/" element={<Layout />}>
                 </Route>
